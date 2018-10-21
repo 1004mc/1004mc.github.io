@@ -2,37 +2,42 @@
 body,
 html {
   width: 100%;
-  height: 100%; 
+  height: 100%;
 }
 
 body {
   font-family: 'Montserrat', sans-serif;
 }
 
-hr {
+/*hr {
   max-width: 65px;
   border-width: 3px;
-  border-color: #F05F44; 
-}
+  border-color: #F05F44;
+}*/
 
 .faded {
-  color: rgba(255, 255, 255, 0.8); 
+  color: rgba(245, 249, 244, 0.92);
+  font-size: 2rem;
+}
+h1 strong {
+  font-size: 3rem;
+    color: #000000;
 }
 
 header.startup {
   background-position: center;
-  background-image: url("header.jpg");
+  background-image: url("glowa.jpg");
   background-size: cover;
   height: 100%;
 }
 
 header.startup hr {
   margin-top: 200px;
-  margin-bottom: 30px; 
+  margin-bottom: 30px;
 }
 
 header.startup h1 {
-  font-size: 2rem; 
+  font-size: 2rem;
 }
 
 .btn {
@@ -40,21 +45,23 @@ header.startup h1 {
   text-transform: uppercase;
   border-radius: 300px;
   font-family: 'Montserrat', sans-serif;
-    
 }
 
 .btn-xl {
-  padding: 1rem 2rem; 
+  padding: 1rem 2rem;
+    color: #22272b;
 }
 
 .btn-primary {
-  background-color: #F05F44;
-  border-color: #F05F44; }
+    background-color: #88929d;
+    border-color: #22272b;
+/*margin-top: 150px;*/
+    color: #f1f3f2;}
 
 .btn-primary:hover {
-  background-color: #ee4b08;
-  border-color: #ee4b08;
+    background-color: #f1f3f2;
+    border-color: #f1f3f2;
   border-width: 5px;
   cursor: pointer;
+    color: #22272b;
 }
-  
